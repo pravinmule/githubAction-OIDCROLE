@@ -31,7 +31,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v6.3.0
         with:
           role-to-assume: arn:aws:iam::453019403268:role/OIDC_role
-          aws-region: ap-south-1
+          aws-region: us-east-1
 
       # Verify AWS Authentication
       - name: Verify AWS Identity
